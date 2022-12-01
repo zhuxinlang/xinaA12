@@ -17,6 +17,7 @@ Configure SSH password free root password on the console (default: alpine)
 ssh-copy-id -i $HOME/.ssh/id_ rsa. Pub root @ your ip
 
 #* * Precautions:**
+The current test version only supports 15.0-15.1.1 A12-A15-M1. Rootless jailbreak supports some plug-ins. Some unsupported plug-ins need to be updated by the plug-in author to support rootless environments. This version integrates Sileo,TrollStore, ssh, libsubstitute, Libhooker, Procursus, Bigboss, etc
 
 If the storage space of iCloud is known to be full, the permanent signature will become invalid after the space is restarted. It may also lead to some other problems. The current cause is unknown (to be checked)
 Since some plug-ins have not been adapted to the current version, please do not update the 35 updates in Sileo for the time being, because it may cause incompatibility and lead to other unknown problems. (Wait patiently for the developer to adapt)
@@ -25,7 +26,8 @@ Perfect support for make install
 Perfect support for make uninstalll
 Perfect support for make do
 
-About the normal use and installation of iOS Opendev, no changes are required
+About the normal use and installation of iOSOpendev, no changes are required
+
 Compile the log. During the compilation process, the console will display the current log. Please ignore it
 If the console displays as follows:
 ldid: Unknown header magic
