@@ -56,3 +56,36 @@ Jailbreakd (cannot be ended) Function signature and all signing permission relat
 
 
 If I have more to say, I will update here
+
+Test available plug-ins: (Continuously updating
+
+)
+
+Atria
+电话助手
+SnowBord 主题应用
+AppData 查看应用数据
+魔术师部分屏蔽检测
+Netskao净化系列：qq、微信、酷我、哔哩哔哩等
+Netskao去广告系列：酷我、推特、小红书、酷安、微博等
+老猫系列：微信助手(密友)、斗图 (插件归纳不生效)
+Jan-wechat
+CoolCC v4.0 控制中心背景
+Printemps 锁屏播放视图变小
+CCSuport 控制中心扩展模式主依赖(可添加VPN/GPS等控件)
+ShowTouch 录屏触摸点
+StoreSwitcher2 AppStore切换账号
+Shadow 忍者屏蔽越狱
+YTMusicUltimate 油管音乐插件
+YouTube Reborn 油管增强插件
+YouPiP 油管画中画
+YTUHD 油管VP9解码
+YouMute 油管播放界面一键静音
+SugarCane14/15 控制中心音量/亮度条添加百分百数字
+BHTwitter 推特插件
+Grupi 通知聚合
+ClassicKeyboardXS 调节键盘底部间隙
+PullClearNC 锁屏界面下拉清通知消息
+FLEXList 调试
+ColorBadges 彩色角标
+
