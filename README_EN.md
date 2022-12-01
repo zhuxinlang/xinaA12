@@ -54,6 +54,9 @@ Launchdhook (can't be ended) function hook launch
 jailbreak_ safe (non ending) function can be started again without exploiting vulnerabilities
 Jailbreakd (cannot be ended) Function signature and all signing permission related operations
 
+#* * BUG **
+White icon of known third-party system process (to be solved)
+
 
 If I have more to say, I will update here
 
