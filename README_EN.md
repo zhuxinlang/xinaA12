@@ -11,6 +11,8 @@ Currently, the debugserver perfectly supports the debugging of additional proces
 
 If your environment is damaged, you can restart your phone, turn on the Rebuild jailbreak Environment switch, and then turn on the jailbreak
 
+If there is a sileo 522 error, you can try to repair the sileo language. If it is invalid for you, you can try to restore the phone settings
+
 #* * What developers need to prepare:**
 Configure the complete ssh port 22
 Configure SSH password free root password on the console (default: alpine)
@@ -20,7 +22,6 @@ ssh-copy-id -i $HOME/.ssh/id_ rsa. Pub root @ your ip
 The current test version only supports 15.0-15.1.1 A12-A15-M1. Rootless jailbreak supports some plug-ins. Some unsupported plug-ins need to be updated by the plug-in author to support rootless environments. This version integrates Sileo,TrollStore, ssh, libsubstitute, Libhooker, Procursus, Bigboss, etc
 
 If the storage space of iCloud is known to be full, the permanent signature will become invalid after the space is restarted. It may also lead to some other problems. The current cause is unknown (to be checked)
-Since some plug-ins have not been adapted to the current version, please do not update the 35 updates in Sileo for the time being, because it may cause incompatibility and lead to other unknown problems. (Wait patiently for the developer to adapt)
 
 There is no need to change the theos or change anything. What you may need to change is the relevant path in your code (the path in the deb package does not need to be changed, and nothing needs to be changed)
 Perfect support for make install
@@ -34,8 +35,8 @@ If the console displays as follows:
 ldid: Unknown header magic
 Are you sure that is a Mach-O?
 ldid: operator(): No such file or directory
-You can ignore this warning because it does not affect the normal operation of your Tweak
-Install local deb (not supported temporarily)
+make uninstall
+make installl
 
 #* * Jailbreak Directory**
 /var/jb
@@ -66,3 +67,14 @@ Test available plug-ins: (Continuously updating)
 
 
 
+1.1.3.6
+ 
+Fixing the problem of usb stuck
+Fix my program sharing send file problem
+Fix 1.1.3.5 Applist does not work properly
+Fix the problem of translation failure of the system
+Fix some possible restart problems
+Fix testlight failure to update
+Fix the problem of third-party program injection failure
+
+To correctly install the new version, restart the phone and select "reinstall the jailbreak environment" open jailbreak
