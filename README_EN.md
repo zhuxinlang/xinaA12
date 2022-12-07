@@ -15,7 +15,7 @@ If there is a sileo 522 error, you can try to repair the sileo language. If it i
 
 #* * What developers need to prepare:**
 Configure the complete ssh port 22
-Configure SSH password free root password on the console (default: alpine)
+Configure SSH password free root password on the console (default: alpine)Unable to repair password temporarily
 ssh-copy-id -i $HOME/.ssh/id_ rsa. Pub root @ your ip
 
 #* * Precautions:**
